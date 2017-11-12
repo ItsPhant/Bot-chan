@@ -1,0 +1,19 @@
+{
+  "name": "bot-chan",
+  "version": "0.1.0",
+  "description": "AIML chatbot for Discord built using Program-y and Discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsPhant/Bot-chan.git"
+  },
+  "author": "Ellie Phant <itsphant@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ItsPhant/Bot-chan/issues"
+  },
+  "homepage": "https://github.com/ItsPhant/Bot-chan#readme"
+}
