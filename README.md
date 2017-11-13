@@ -19,3 +19,8 @@ npm install
 cd ./program-y/
 pip3 install -r requirements.txt
 ```
+## Running
+
+**Bot-chan** uses program-y's REST client to communicate with the aiml interpreter. This process is spawned when the bot is started and ends when it is terminated.
+
+Run **Bot-chan** using node: `node index.js`
