@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/ItsPhant/Bot-chan/issues"
   },
-  "homepage": "https://github.com/ItsPhant/Bot-chan#readme"
+  "homepage": "https://github.com/ItsPhant/Bot-chan#readme",
+  "dependencies": {
+    "bufferutil": "^3.0.3",
+    "discord.js": "^11.2.1",
+    "erlpack": "github:discordapp/erlpack",
+    "libsodium-wrappers": "^0.7.2",
+    "node-opus": "^0.2.7",
+    "request": "^2.83.0",
+    "sodium": "^2.0.1",
+    "uws": "^8.14.1",
+    "zlib-sync": "^0.1.3"
+  }
 }
