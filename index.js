@@ -32,7 +32,14 @@ rest.stderr.on('data', (data) => {
 
 sendToBot = (message, sessionid, callback) => {
   request(`http://localhost:5000/api/v1.0/ask?question=${message}&sessionid=${sessionid}`, function(error, response, body) {
-    return callback(JSON.parse(body))
+    var response;
+    try {
+    	response = JSON.parse(body);
+    } catch (e) {
+      console.error(e);
+      return;
+    }
+    return callback(response);
   })
 }
 
