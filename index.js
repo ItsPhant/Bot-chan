@@ -15,6 +15,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
   if (message.channel.id === config.channelid && 
+      !message.author.bot &&
       message.author.id !== client.user.id) {
     sendToBot(message.content, message.author.id, (reply) => {
       message.channel.send(reply[0].response.answer) 
