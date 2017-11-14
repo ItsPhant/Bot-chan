@@ -31,3 +31,5 @@ npm install
 **Bot-chan** uses program-y's REST client to communicate with the aiml interpreter. This process is spawned when the bot is started and ends when it is terminated.
 
 Run **Bot-chan**: `npm start`
+
+**Bot-chan** won't respond to messages prefixed with `##`.
