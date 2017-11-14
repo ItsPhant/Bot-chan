@@ -15,7 +15,10 @@ client.on('ready', () => {
 
 client.on('message', message => {
   if (message.channel.id === config.channelid && 
-      message.author.id !== client.user.id) {
+      message.author.id !== client.user.id &&
+      !message.content.startsWith('##') &&
+      !message.author.bot &&
+      message.type === "DEFAULT") {
     sendToBot(message.content, message.author.id, (reply) => {
       message.channel.send(reply[0].response.answer) 
     })
