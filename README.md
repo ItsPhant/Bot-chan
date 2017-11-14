@@ -19,6 +19,15 @@ npm install
 cd ./program-y/
 pip3 install -r requirements.txt
 ```
+## Example config.json
+
+```
+{
+	"channelid": "123456789012345678",
+	"token": "bot.token.here"
+}
+```
+
 ## Running
 
 **Bot-chan** uses program-y's REST client to communicate with the aiml interpreter. This process is spawned when the bot is started and ends when it is terminated.
