@@ -4,6 +4,7 @@
   "description": "AIML chatbot for Discord built using Program-y and Discord.js",
   "main": "index.js",
   "scripts": {
+    "postinstall": "cd program-y && pip install -r requirements.txt",
     "start": "node index.js"
   },
   "repository": {
