@@ -5,8 +5,8 @@ const { spawn } = require('child_process');
 const config = require('./config.json')
 
 const client = new Discord.Client()
-const rest   = spawn('./y-bot-flask-rest.sh', {
-  cwd: './program-y/bots/y-bot/' 
+const rest   = spawn('./flask-rest.sh', {
+  cwd: './bot/' 
 })
 
 client.on('ready', () => {
