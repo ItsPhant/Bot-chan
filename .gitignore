@@ -60,3 +60,6 @@ typings/
 
 # config file (contains discord bot token!)
 config.json
+
+# temp file directory for bot
+bot/temp/
