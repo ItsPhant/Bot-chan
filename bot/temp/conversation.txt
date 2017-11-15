@@ -1,0 +1,8 @@
+2017-11-14 22:34:43 - Console - Question[Hello], Response[Hiya!]
+2017-11-14 22:34:45 - Console - Question[HELLO], Response[Hi there!]
+2017-11-14 22:34:45 - Console - Question[Hi], Response[Hi there!]
+2017-11-14 22:34:47 - Console - Question[HELLO], Response[Hello!]
+2017-11-14 22:34:47 - Console - Question[Hey], Response[Hello!]
+2017-11-14 22:34:49 - Console - Question[HELLO], Response[Hiya!]
+2017-11-14 22:34:49 - Console - Question[Yo], Response[Hiya!]
+2017-11-14 22:34:51 - Console - Question[Hola], Response[Sorry, I don't have an answer for that!]
