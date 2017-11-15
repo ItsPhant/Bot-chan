@@ -1,7 +1,0 @@
-2017-11-14 22:34:39 [Unsupported random child tag: search] [../program-y/bots/y-bot/aiml/core/personality.aiml] [3026] [3035]
-2017-11-14 22:34:39 [Unsupported random child tag: eval] [../program-y/bots/y-bot/aiml/core/system/utilities.aiml] [321] [385]
-2017-11-14 22:34:39 [Name not found in map] [../program-y/bots/y-bot/aiml/oob/oob.aiml] [76] [83]
-2017-11-14 22:34:39 [SRAIX node, service attribute missing !] [../program-y/bots/y-bot/aiml/rdf/rdf.aiml] [1467] [1547]
-2017-11-14 22:34:39 [SRAIX node, service attribute missing !] [../program-y/bots/y-bot/aiml/rdf/rdf_core.aiml] [1192] [1272]
-2017-11-14 22:34:39 [<addtriple> node missing object attribue/element] [../program-y/bots/y-bot/aiml/rdf/rdf_test.aiml] [99] [127]
-2017-11-14 22:34:39 [<deletetriple> node missing predicate attribue/element] [../program-y/bots/y-bot/aiml/rdf/rdf_test.aiml] [129] [186]
