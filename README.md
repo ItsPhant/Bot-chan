@@ -1,5 +1,7 @@
 # Bot-chan
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ItsPhant/Bot-chan.svg)](https://greenkeeper.io/)
+
 AIML Chat bot written in node.js for Discord.
 
 Based on [program-y](https://github.com/keiffster/program-y) and [discord.js](https://github.com/hydrabolt/discord.js).
